@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1018</width>
+    <height>599</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1021</width>
+      <height>601</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>monitor.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="monitoring">
+    <property name="geometry">
+     <rect>
+      <x>800</x>
+      <y>320</y>
+      <width>100</width>
+      <height>100</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#monitoring{
+	background-color: #000;
+    border: 3px solid #fff;
+	border-radius: 10px;
+}
+
+QPushButton#monitoring:hover{
+	background-color:#444;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>C:/Users/nisoojadhav/Downloads/Build Complete Webcam Security Camera  Python OpenCv &amp; Pyqt/[TutsNode.net] - Build Complete Webcam Security Camera  Python OpenCv &amp; Pyqt/3. Image resources/1.2 icon1.png</normaloff>C:/Users/nisoojadhav/Downloads/Build Complete Webcam Security Camera  Python OpenCv &amp; Pyqt/[TutsNode.net] - Build Complete Webcam Security Camera  Python OpenCv &amp; Pyqt/3. Image resources/1.2 icon1.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>70</width>
+      <height>70</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="volume">
+    <property name="geometry">
+     <rect>
+      <x>800</x>
+      <y>450</y>
+      <width>100</width>
+      <height>100</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#volume{
+	background-color: #000;
+    border: 3px solid #fff;
+	border-radius: 10px;
+}
+
+QPushButton#volume:hover{
+	background-color:green
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>C:/Users/nisoojadhav/Downloads/Build Complete Webcam Security Camera  Python OpenCv &amp; Pyqt/[TutsNode.net] - Build Complete Webcam Security Camera  Python OpenCv &amp; Pyqt/3. Image resources/1.3 icon2.png</normaloff>C:/Users/nisoojadhav/Downloads/Build Complete Webcam Security Camera  Python OpenCv &amp; Pyqt/[TutsNode.net] - Build Complete Webcam Security Camera  Python OpenCv &amp; Pyqt/3. Image resources/1.3 icon2.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>65</width>
+      <height>65</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="exit">
+    <property name="geometry">
+     <rect>
+      <x>800</x>
+      <y>190</y>
+      <width>100</width>
+      <height>100</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#exit{
+	background-color: #000;
+    border: 3px solid #fff;
+	border-radius: 10px;
+}
+
+QPushButton#exit:hover{
+	background-color:red;
+	transition: all 0.5s;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>C:/Users/nisoojadhav/Downloads/Build Complete Webcam Security Camera  Python OpenCv &amp; Pyqt/[TutsNode.net] - Build Complete Webcam Security Camera  Python OpenCv &amp; Pyqt/3. Image resources/1.4 icon3.png</normaloff>C:/Users/nisoojadhav/Downloads/Build Complete Webcam Security Camera  Python OpenCv &amp; Pyqt/[TutsNode.net] - Build Complete Webcam Security Camera  Python OpenCv &amp; Pyqt/3. Image resources/1.4 icon3.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>70</width>
+      <height>70</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QSlider" name="volumeslider">
+    <property name="geometry">
+     <rect>
+      <x>760</x>
+      <y>430</y>
+      <width>22</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="minimum">
+     <number>1</number>
+    </property>
+    <property name="maximum">
+     <number>100</number>
+    </property>
+    <property name="sliderPosition">
+     <number>50</number>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="QLabel" name="volumelevel">
+    <property name="geometry">
+     <rect>
+      <x>872</x>
+      <y>455</y>
+      <width>40</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:white;
+font: 75 12pt &quot;impact&quot;;</string>
+    </property>
+    <property name="text">
+     <string>5</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="capturedwindow">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>100</y>
+      <width>531</width>
+      <height>421</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: black;
+border-radius: 40px;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
